@@ -1,0 +1,2 @@
+This is a replication of a static webpage using HTML, CSS and JQuery to mkae the page responsive.
+This was done as an assignment during my undergrad in Feb 2014 to learn the concepts of HTML, responsive CSS & JQuery.

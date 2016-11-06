@@ -1,0 +1,226 @@
+    <!DOCTYPE html>
+    <head>
+    <title> UI Project </title>
+    <link rel="stylesheet" type="text/css" href="css/ui.css">
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    </head>
+    <body style="margin: 0px;">
+    <div class="header">
+        <div class="mainmargin">
+    <div class="htop clearfix">
+    <div class="hleft clearfix"></div>
+    <div class="hright clearfix">
+    <div class="top">
+    <div class="top3">
+    <div class="contact"><b> Contact us </b></div>
+    <div class="facebook"></div>
+    <div class="twitter"></div>
+    </div>
+
+    <div class="search"><img src="images/search.gif" alt="search" width="40px" height="48px"><input type="text" placeholder="Search"></div>
+
+    </div>
+    </div>
+    </div>
+    <div class="hbottom clearfix">
+    <div>
+    <ul class="tab">
+        <li> <p>About<br> council</p></li>
+        <li> <p>Rates, building<br> and property</p></li>
+        <li> <p>Licences and<br> regulations</p></li>
+        <li> <p>Plans, policies and<br> projects</p></li>
+        <li> <p>Parks and<br> facilites</p></li>
+        <li> <p>Environment and <br>waste</p></li>
+        <li style="border-right:none; width:13%"> <p>News, events and <br>culture</p></li>
+    </ul>
+    </div>
+    <div class="ntab"><p>Menu <img src="images/3-lines.png" alt="3lines"></p>
+    <ul class="menu">
+    <li> <p>About council</p></li>
+        <li> <p>Rates, building and property</p></li>
+        <li> <p>Licences and regulations</p></li>
+        <li> <p>Plans, policies and projects</p></li>
+        <li> <p>Parks and facilites</p></li>
+        <li> <p>Environment and waste</p></li>
+        <li style="border-right:none;"> <p>News, events and culture</p></li>
+    </ul>
+    <script>$(document).on('click','.ntab',function(){
+            $('.menu').slideToggle(200);
+      $( ".menu" ).css('display','block');
+
+    });
+    </script>
+
+    </div>
+
+    </div>
+    </div>
+    </div>
+    <div class="middle clearfix">
+    <div class="mainmargin" style="overflow: auto;">
+
+    <div class = "tab1">
+    <ul>
+        <li> Request information</li>
+        <li> Request a service</li>
+        <li> Apply for it</li>
+        <li> Book it</li>
+        <li> Pay it</li>
+        <li> respond to it</li>
+        <li> Recieve it</li>
+        <li> Find it</li>
+        <li> Say it</li>
+    </ul>
+    </div>	
+    <div class = "ntab1"><p>Sub Menu</p>
+    <div class="submenu">
+    <ul>
+        <li> Request information</li>
+        <li> Request a service</li>
+        <li> Apply for it</li>
+        <li> Book it</li>
+        <li> Pay it</li>
+        <li> respond to it</li>
+        <li> Recieve it</li>
+        <li> Find it</li>
+        <li style="border-bottom: none"> Say it</li>
+    </ul>
+    </div>
+    </div>	
+    <script>$(document).on('click','.ntab1',function(){
+    $('.submenu').slideToggle(200);
+    $( ".submenu" ).css('display','block');  
+    });
+    </script>
+
+    <div class="bluecolor1 font-40"><br> Setup successful<br> </div>
+    <div><br><br>
+    <div class="greenbar"><img src="images/success-icon-24x24.png" alt="success">&nbsp;&nbsp;Your rates direct debit has been setup </div>
+    </div>
+    <table class="tables">
+    <div class="bluecolor"> <br>Property details </div>
+    <br><tr>
+    <th>Rates assessment number</th>
+    <th>Property address</th>
+    <th>Date of first deduction</th>
+    </tr>
+    <tr>
+    <td>000007856423</td>
+    <td> 21 Wellington Street, Mt Wellington</td>
+    <td>30 August 2015</td>
+    </tr>
+    <tr>
+    <td>000000543210</td>
+    <td> 84 Queen Street, Auckland Central</td>
+    <td>27 August 2015</td>
+    </tr>
+    </table>
+
+    <table class="tables">
+    <div class="bluecolor"> <br>Payment details </div>
+    <br><tr>
+    <th>Frequency of payments</th>
+    <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Every 2 weeks </td>
+    </tr>
+    </table>
+
+    <table class="tables">
+    <div class="bluecolor"> <br>Bank account details </div>
+    <br><tr>
+    <th>Bank account name</th>
+    <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mr JXYZ </td>
+    </tr>
+    <tr>
+    <th>Bank account number</th>
+    <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12 1234 56789012 01 </td>
+    </tr>
+    </table>
+
+    <table class="tables">
+    <div class="bluecolor"> <br>Contact details</div>
+    <br>
+    <tr>
+    <th>First name</th>
+    <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem </td>
+    </tr>
+    <tr>
+    <th>Last name</th>
+    <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Epsum </td>
+    </tr>
+    <tr>
+    <th>Phone number</th>
+    <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;123 4567 890</td>
+    </tr>
+    <tr>
+    <th>Mobile number</th>
+    <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;021 123 4567 </td>
+    </tr>
+    <tr>
+    <th>Email address</th>
+    <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;homeowner@xyz.com </td>
+    </tr>
+    </table>
+
+    <div class="darkblue"> <br>You indicated that you would/would not like to recieve your rates notice by email</div>
+    <div class="bluebox">More transactions</div>
+    </div>
+    </div>
+    <div class="footer clearfix">
+    <div class="bottom clearfix">
+    <br><br>
+    <div class="mainmargin clearfix">
+    <div class="bottom1">
+    <div style="font-size: 14px;">Our council websites</div><br><br>
+    <div class="bluecolor1">
+    <ul>
+    <li> Our Transport </li>
+    <li><td>Watercare Services</li>
+    <li>Regional Facilities Auckland</li>
+    <li>Auckland, Tourisms, Events <br> and Economic Development</li>
+    </ul>
+    <ul>
+    <li>Waterfront Auckland </li>
+    <li>Auckland Council</li>
+    <li>Libraries</td>
+    <li>More...</li>
+    </ul>
+    </div>
+    </div>
+
+    <div class="bottom2">
+    <div style="font-size: 14px;">Contact Us</div><br><br>
+    <div class="bluecolor1">
+    <div class="call">
+        <div class="phone-image"><img src="images/call.png" alt="call"></div>
+        <div class="num">&nbsp;&nbsp;0123-456-7890</div>
+        </div><br>
+     <div class="email">
+        <div class="email-image"><img src="images/email.png" alt="email" height="20px"></div>
+        <div class="email1">&nbsp;&nbsp;Email Us</div>
+        </div><br>
+    <div class="person">
+    <div class="visit-image"><img src="images/person.png" alt="person" height="20px"></div>
+    <div class="visit">&nbsp;&nbsp;Visit Us</div><br>
+     </div>
+    </div>
+    </div>
+
+    <div class="bottom3">
+    <div style="font-size: 14px;">Follow Us</div><br>
+    <div> <img src="images/twitter_logo.png" alt="twitter logo"><img src="images/facebook_logo.png" alt="facebook logo"> </div>
+    <div> <img src="images/linkedin_logo.png" alt="linkedin logo">&nbsp;<img src="images/youtube_logo.png" alt="youtube logo"> </div>
+    </div>
+
+    <div class="bottom4">
+    <div style="font-size: 14px;">Work at the Council</div><br><br>
+    Help male Auckland the best palce in the world to<br>work, play, study and invest
+    <br><br>
+    <div class="bluebox1"><b>Find Out more</b></div>
+
+    </div>
+    </div>
+
+    </div>
+    </div>
+    </body>
+    </html>
